@@ -1,0 +1,18 @@
+body {
+  background-color: #f8f9fa;
+}
+.summary-card {
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+.summary-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
